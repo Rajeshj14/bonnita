@@ -2,7 +2,6 @@
 
 import { useState, useEffect } from "react";
 import WalkthroughButton from "./buttoncomponent";
-import GhostGoldButton from "./viewbutton";
 
 export default function PopupAd() {
   const [isVisible, setIsVisible] = useState(false);
@@ -21,10 +20,10 @@ export default function PopupAd() {
   if (!isVisible) return null;
 
   const features = [
-    "Free Treatment Planning Visit",
-    "Transparent Cost Breakdown",
-    "10,000+ Happy Families",
-  ];
+    "GFC 3 Sessions + 1 Free",
+    "PRP 3 Sessions + 1 Free",
+    "Hair Transplant at ₹99,999",
+    ];
 
   return (
     <>
@@ -98,7 +97,7 @@ export default function PopupAd() {
                 fontSize: "clamp(1.3rem, 5vw, 1.75rem)",
               }}
             >
-              Get Your <span style={{ color: "#ddb95a" }}>Free IVF</span> Consultation Today!
+              Exclusive <span style={{ color: "#ddb95a" }}>Hair Treatment</span> Offers for You!
             </h2>
 
             {/* Description */}
@@ -109,7 +108,7 @@ export default function PopupAd() {
                 fontSize: "clamp(12px, 3.5vw, 14px)",
               }}
             >
-              Start your journey to parenthood with expert guidance. Book a free consultation and get a personalized treatment plan.
+              Consult our doctor for expert guidance and get the right treatment recommendation for your hair problem.
             </p>
 
             {/* Features */}
@@ -158,7 +157,6 @@ export default function PopupAd() {
             {/* CTA Buttons */}
             <div className="flex sm:flex-row gap-2 sm:gap-3 animate-popup">
               <WalkthroughButton label="Book Now" href="#Form" />
-              <GhostGoldButton onClick={handleClose} label="Maybe Later" />
             </div>
 
             {/* Footer Note */}
@@ -166,7 +164,7 @@ export default function PopupAd() {
               className="text-center mt-3 sm:mt-4 animate-footer"
               style={{ color: "rgba(240,232,213,0.35)", fontSize: "11px" }}
             >
-              Limited slots available • Privacy maintained
+              Note: Exclusive Combo Offers: Visit Our Clinic for Special Deals
             </p>
           </div>
 
@@ -201,7 +199,8 @@ export default function PopupAd() {
         .animate-feature-1   { animation: fadeInLeft 0.5s  ease-out 1.4s  both; }
         .animate-feature-2   { animation: fadeInLeft 0.5s  ease-out 1.7s  both; }
         .animate-feature-3   { animation: fadeInLeft 0.5s  ease-out 2.0s  both; }
-        .animate-footer      { animation: fadeInUp   0.5s  ease-out 2.3s  both; }
+        .animate-feature-4   { animation: fadeInLeft 0.5s  ease-out 2.3s  both; }
+        .animate-footer      { animation: fadeInUp   0.5s  ease-out 2.6s  both; }
       `}</style>
     </>
   );

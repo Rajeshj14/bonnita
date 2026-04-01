@@ -169,7 +169,7 @@ export default function HeroBanner() {
               <Reveal dir="down" delay={0.0} className="mb-5 flex justify-center lg:justify-start">
                 <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full" style={{ border:"1px solid rgba(221,185,90,0.35)", background:"rgba(221,185,90,0.07)" }}>
                   <div className="w-2 h-2 rounded-full glow-dot" style={{ background:"#ddb95a" }}/>
-                  <span className="text-xs font-semibold tracking-widest" style={{ color:"#ddb95a" }}>COIMBATORE'S #1 HAIR CLINIC</span>
+                  <span className="text-xs font-semibold tracking-widest" style={{ color:"#ddb95a" }}>TAMIL NADU SKIN AND HAIR CLINIC</span>
                 </div>
               </Reveal>
 

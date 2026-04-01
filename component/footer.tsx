@@ -5,9 +5,8 @@ const links = {
     { label: "Hair Transplant",              href: "/" },
     { label: "Mesotherapy",                  href: "/" },
     { label: "GFC Treatment",                href: "/" },
-    { label: "Low-Level Laser Therapy",      href: "/" },
-    { label: "Anti-Dandruff Treatment",      href: "/" },
-    { label: "QR678 Treatment",              href: "/" },
+    { label: "Beard & Mustache Transplant",      href: "/" },
+    { label: "Female Eyebrow Transplant",      href: "/" },
   ],
   company: [
     { label: "Home",    href: "/" },
