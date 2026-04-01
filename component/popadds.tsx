@@ -155,14 +155,14 @@ export default function PopupAd() {
             </div>
 
             {/* CTA Buttons */}
-            <div className="flex sm:flex-row gap-2 sm:gap-3 animate-popup">
+            <div className="flex sm:flex-row justify-center gap-2 sm:gap-3 animate-popup">
               <WalkthroughButton label="Book Now" href="#Form" />
             </div>
 
             {/* Footer Note */}
             <p
               className="text-center mt-3 sm:mt-4 animate-footer"
-              style={{ color: "rgba(240,232,213,0.35)", fontSize: "11px" }}
+              style={{ color: "rgba(240,232,213,0.85)", fontSize: "15px" }}
             >
               Note: Exclusive Combo Offers: Visit Our Clinic for Special Deals
             </p>
