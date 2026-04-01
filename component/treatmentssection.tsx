@@ -125,7 +125,7 @@ function TreatmentCardInner({ t }: { t: (typeof treatments)[number] }) {
   }, [isVisible, t.imgs.length]);
 
   return (
-    <div
+    <div id="our-services"
       ref={cardRef}
       className="t-card rounded-2xl h-full"
       style={{

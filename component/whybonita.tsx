@@ -346,7 +346,7 @@ export default function AgencySection() {
                   className="text-xs font-semibold tracking-widest"
                   style={{ color: "#ddb95a" }}
                 >
-                  COIMBATORE'S #1 HAIR CLINIC
+                  TAMIL NADU SKIN AND HAIR CLINIC
                 </span>
               </div>
             </Reveal>

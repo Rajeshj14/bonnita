@@ -2,19 +2,19 @@
 
 const links = {
   treatments: [
-    { label: "Hair Transplant",              href: "/" },
-    { label: "Mesotherapy",                  href: "/" },
-    { label: "GFC Treatment",                href: "/" },
-    { label: "Beard & Mustache Transplant",      href: "/" },
-    { label: "Female Eyebrow Transplant",      href: "/" },
+    { label: "Hair Transplant",              href: "#our-services" },
+    { label: "Mesotherapy",                  href: "#our-services" },
+    { label: "GFC Treatment",                href: "#our-services" },
+    { label: "Beard & Mustache Transplant",      href: "#our-services" },
+    { label: "Female Eyebrow Transplant",      href: "#our-services" },
   ],
   company: [
     { label: "Home",    href: "/" },
-    { label: "About Us",    href: "/" },
-    { label: "Services",    href: "/" },
-    { label: "FAQ",     href: "/" },
-    { label: "Reviews",     href: "/" },
-    { label: "Contact Us",  href: "/" },
+    { label: "About Us",    href: "#About" },
+    { label: "Services",    href: "#services" },
+    { label: "FAQ",     href: "#faq" },
+    { label: "Reviews",     href: "#reviews" },
+    { label: "Contact Us",  href: "#contact" },
   ],
   legal: [
     { label: "Privacy Policy",    href: "/privacy-policy" },
@@ -137,7 +137,7 @@ export default function Footer() {
               <ul className="flex flex-col gap-2">
                 {links.treatments.map((l, i) => (
                   <li key={i}>
-                    <a href={l.href} className="f-link">
+                    <a href={l.href} className="f-link" title={l.label}>
                       <span className="f-dot w-1 h-1 rounded-full flex-shrink-0" style={{ background:"#ddb95a", opacity:0.3, transition:"opacity 0.2s" }}/>
                       {l.label}
                     </a>
@@ -154,7 +154,7 @@ export default function Footer() {
               <ul className="flex flex-col gap-2">
                 {links.company.map((l, i) => (
                   <li key={i}>
-                    <a href={l.href} className="f-link ">
+                    <a href={l.href} className="f-link " title={l.label}>
                       <span className="f-dot w-1 h-1 rounded-full flex-shrink-0" style={{ background:"#ddb95a", opacity:0.3, transition:"opacity 0.2s" }}/>
                       {l.label}
                     </a>
@@ -208,7 +208,7 @@ export default function Footer() {
             </p>
             <div className="flex items-center gap-4 text-sm ">
               {links.legal.map((l, i) => (
-                <a key={i} href={l.href}
+                <a key={i} href={l.href} title={l.label}
                   style={{ color:"rgba(240,232,213,0.28)", textDecoration:"none", transition:"color 0.2s" }}
                   onMouseEnter={e=>{(e.currentTarget as HTMLElement).style.color="#ddb95a";}}
                   onMouseLeave={e=>{(e.currentTarget as HTMLElement).style.color="rgba(240,232,213,0.28)";}}
