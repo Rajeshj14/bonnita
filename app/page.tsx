@@ -10,6 +10,7 @@ import ReviewsSection from "@/component/reviewsection";
 import BackToTop from "@/component/scrool";
 import TransformationsSection from "@/component/transformationssection";
 import TreatmentsSection from "@/component/treatmentssection";
+import VideoCarousel from "@/component/videocarousel";
 import WhyBonitaa from "@/component/whybonita";
 import Image from "next/image";
 
@@ -21,6 +22,7 @@ export default function Home() {
     <AppointmentSection />
     <WhyBonitaa />
     <TransformationsSection />
+    <VideoCarousel />
     <TreatmentsSection />
     <HairSolutions />
     <ReviewsSection />
