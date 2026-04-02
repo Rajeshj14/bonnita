@@ -113,7 +113,7 @@ export default function Footer() {
             </div>
               </div>
               <p style={{ color:"rgba(240,232,213,0.38)", fontSize:14, lineHeight:1.85, marginBottom:16 }}>
-                Coimbatore's #1 hair clinic. Trusted by 5,000+ patients across Tamil Nadu for expert hair restoration and care.
+                Coimbatore's #1 hair clinic. Trusted by 50,000+ patients across Tamil Nadu for expert hair restoration and care.
               </p>
 
               {/* Rating */}

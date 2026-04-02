@@ -12,8 +12,8 @@ const features = [
 
 const statsConfig = [
   { to:15,  suffix:"+",  label:"Years of Experience", dir:"up"    },
-  { to:6,   suffix:"+",  label:"Branches",            dir:"left"  },
-  { to:5,   suffix:"K+", label:"Happy Customers",     dir:"down"  },
+  { to:22,   suffix:"+",  label:"Branches",            dir:"left"  },
+  { to:50,   suffix:"K+", label:"Happy Customers",     dir:"down"  },
   { to:4.8, suffix:"",   label:"Google Rating",       dir:"right", decimals:1 },
 ] as const;
 

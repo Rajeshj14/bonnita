@@ -43,8 +43,8 @@ const badges = [
   {
     image: "/icon2.png",
     imageTint: "#ddb95a",
-    to: 5000,
-    suffix: "+",
+    to: 50,
+    suffix: "K+",
     sub: "Happy Patients",
   },
 ];

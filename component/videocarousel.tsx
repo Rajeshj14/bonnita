@@ -144,7 +144,7 @@ export default function VideoCarousel() {
 
             <Reveal dir="up" delay={0.1}>
               <h2 style={{ fontFamily:"'Playfair Display',serif", fontSize:"clamp(1.7rem,3.5vw,3rem)", fontWeight:700, color:"rgba(240,232,213,0.92)", lineHeight:1.2 }}>
-                Real <span style={{ color:"#ddb95a", fontStyle:"italic" }}>Transformations</span>
+                Real Journey<span style={{ color:"#ddb95a", fontStyle:"italic" }}>Of Bonita</span>
               </h2>
             </Reveal>
 

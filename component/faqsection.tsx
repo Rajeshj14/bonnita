@@ -103,12 +103,12 @@ export default function FaqSection() {
                     <div className="w-full h-px" style={{ background:"rgba(221,185,90,0.16)" }}/>
                     <div className="flex items-center justify-between">
                       <div className="text-center">
-                        <p className="font-black leading-none" style={{ color:"rgba(240,232,213,0.88)", fontFamily:"'Playfair Display',serif", fontSize:"clamp(11px, 2.5vw, 16px)" }}>5K+</p>
+                        <p className="font-black leading-none" style={{ color:"rgba(240,232,213,0.88)", fontFamily:"'Playfair Display',serif", fontSize:"clamp(11px, 2.5vw, 16px)" }}>50K+</p>
                         <p style={{ color:"rgba(240,232,213,0.38)", fontSize: "clamp(7px, 1.5vw, 9px)", marginTop:2 }}>Patients</p>
                       </div>
                       <div className="w-px h-4 lg:h-6" style={{ background:"rgba(221,185,90,0.18)" }}/>
                       <div className="text-center">
-                        <p className="font-black leading-none" style={{ color:"rgba(240,232,213,0.88)", fontFamily:"'Playfair Display',serif", fontSize:"clamp(11px, 2.5vw, 16px)" }}>6+</p>
+                        <p className="font-black leading-none" style={{ color:"rgba(240,232,213,0.88)", fontFamily:"'Playfair Display',serif", fontSize:"clamp(11px, 2.5vw, 16px)" }}>22</p>
                         <p style={{ color:"rgba(240,232,213,0.38)", fontSize: "clamp(7px, 1.5vw, 9px)", marginTop:2 }}>Branches</p>
                       </div>
                       <div className="w-px h-4 lg:h-6" style={{ background:"rgba(221,185,90,0.18)" }}/>
