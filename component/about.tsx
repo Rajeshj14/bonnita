@@ -20,7 +20,7 @@ const fields = [
   { name:"phone",    placeholder:"Please Fill Your 10 Digit Phone No.", type:"tel",   icon:<PhoneIcon/>, dir:"right" },
   { name:"email",    placeholder:"Example@gmail.com",                   type:"email", icon:<MailIcon/>,  dir:"left"  },
   { name:"concern",  placeholder:"Select Your Nearest Branch",           type:"select", icon:<PinIcon/>,  dir:"right",
-    options:["Coimbatore", "Chennai", "Bangalore", "Madurai"]
+    options:["Coimbatore", "Chennai", "Trichy", "Madurai"]
   },
   { name:"pincode",  placeholder:"Type 6 Digit Your Pincode Here",      type:"text",  icon:<ChatIcon/>,   dir:"left"  },
 ] satisfies { name:string; placeholder:string; type:string; icon:JSX.Element; dir:"left"|"right"; options?:string[] }[];
