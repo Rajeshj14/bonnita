@@ -60,7 +60,6 @@ export default function PopupAd() {
             </svg>
           </button>
 
-          {/* Decorative Background Orbs */}
           <div className="absolute -top-16 -right-16 w-32 h-32 rounded-full opacity-15 blur-3xl pointer-events-none" style={{ background: "#ddb95a" }} />
           <div className="absolute -bottom-16 -left-16 w-32 h-32 rounded-full opacity-10 blur-3xl pointer-events-none" style={{ background: "#ddb95a" }} />
 
